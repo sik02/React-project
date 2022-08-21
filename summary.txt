@@ -1,0 +1,24 @@
+justifycontent space-between 요소들 사이에 동일한 간격으로 설정
+styled(Link) react-router-dom의 Link의 모든 속성을 inherit하면서 새로운 속성 추가 가능
+react-scroll 라이브러리 사용해서 스크롤시 자연스러운 이동을 만듬
+transform: translate(-100%, 60%); x축으로 -100%, y축으로 60%
+outline: none; border와 비슷하지만 border 바깥쪽의 테두리를 지칭함
+aside태그 본문 옆에 따로 정보를 추가함
+
+사이즈 em과 rem
+em은 사용한 해당 요소의 font-size에 비례하고
+rem은 최상위 요소의 font-size에 비례함
+
+video object-fit img나 video의 콘텐츠 크기를 조절할수 있음
+
+navbar 정렬요소 이슈
+1. app.css의 margin: 0 auto 옵션을 건드려놓아서 flex상태에서 justify-content space-beween을
+적용해도 정렬이 똑바로 안되고 있었음
+2. margin옵션에서 auto를 잘못 이용하면 각 margin이 자기 맘대로 적용됨
+3. 요소검사로 각 요소의 margin상태를 확인하고 수치 조정해가면서 해결했음
+4. margin 줄때는 한쪽margin만 주는게 아닌 한번에 다 초기화시켜가면서 사용할 것
+
+margin: 20px 상하좌우 20px
+margin: 30px 10px 상하 30px 좌우 10px
+margin: 30px 10px 20px 50px 상 30px 우 10px 하 20px 좌 50px 시계방향으로 작동
+margin: 30px 10px 40px 상 30px 좌우 10px 아래 40px
