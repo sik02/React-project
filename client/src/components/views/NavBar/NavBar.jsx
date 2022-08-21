@@ -7,6 +7,7 @@ import { FaBars } from "react-icons/fa"
 import {
     Nav,
     NavbarContainer,
+    NavLogoContainer,
     NavLogo,
     MobileIcon,
     NavItem,
@@ -79,7 +80,9 @@ const Navber = ({ toggle }) => {
             <IconContext.Provider value={{ color: '#fff' }}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to='/' onClick={toggleHome}>Logo</NavLogo>
+                        <NavLogoContainer>
+                            <NavLogo to='/' onClick={toggleHome}>Logo</NavLogo>
+                        </NavLogoContainer>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>
@@ -126,7 +129,18 @@ const Navber = ({ toggle }) => {
                             </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="/login">Sign In</NavBtnLink>
+                            {
+                                Login
+                                ?
+                                <NavBtnLink to="/logout">Logout</NavBtnLink>
+                                :
+                                <>
+                                <NavBtnLink to="/login">Login</NavBtnLink>
+                                <NavBtnLink to="/register">Register</NavBtnLink>
+                                </>
+                            }
+                            
+                            
                         </NavBtn>
                     </NavbarContainer>
                 </Nav>
