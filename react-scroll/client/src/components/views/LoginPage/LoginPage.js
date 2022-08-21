@@ -158,4 +158,5 @@ function LoginPage() {
   );
 }
 
-export default Auth(LoginPage, false);
+// export default Auth(LoginPage, false);
+export default LoginPage;

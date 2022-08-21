@@ -75,7 +75,8 @@ const Navber = ({ toggle }) => {
     },[]);
 
     return (
-        <>
+        <>  
+            
             {CheckLogin()}
             <IconContext.Provider value={{ color: '#fff' }}>
                 <Nav scrollNav={scrollNav}>
@@ -89,6 +90,7 @@ const Navber = ({ toggle }) => {
                         <NavMenu>
                             <NavItem>
                                 <NavLinks 
+                                    name='about'
                                     to="about" 
                                     smooth={true} 
                                     duration={500}
@@ -132,7 +134,7 @@ const Navber = ({ toggle }) => {
                             {
                                 Login
                                 ?
-                                <NavBtnLink to="/logout">Logout</NavBtnLink>
+                                <NavBtnLink to="/" onClick={onLogoutClick}>Logout</NavBtnLink>
                                 :
                                 <>
                                 <NavBtnLink to="/login">Login</NavBtnLink>

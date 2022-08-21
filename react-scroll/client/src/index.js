@@ -12,6 +12,7 @@ import promiseMiddleware from "redux-promise";
 import ReduxThunk from "redux-thunk";
 import rootReducer from "./_reducers";
 import { composeWithDevTools } from "redux-devtools-extension";
+import Navbar from "./components/views/NavBar/NavBar";
 
 
 //Store 만들 때 미들웨어도 추가
