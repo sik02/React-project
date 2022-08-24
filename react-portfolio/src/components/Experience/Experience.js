@@ -1,8 +1,15 @@
 import React from 'react'
+import {
+  ExpContainer,
+} from './ExpElements';
 
 const Experience = () => {
   return (
-    <div>Experience</div>
+    <>
+      <ExpContainer id='experience'>
+        Experience
+      </ExpContainer>
+    </>
   )
 }
 

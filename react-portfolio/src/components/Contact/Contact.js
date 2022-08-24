@@ -1,8 +1,15 @@
 import React from 'react'
+import {
+  ContactCotainer,
+} from './ContactElements';
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+      <ContactCotainer id='contact'>
+        Contact
+      </ContactCotainer>
+    </>
   )
 }
 

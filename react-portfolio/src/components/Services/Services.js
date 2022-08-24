@@ -1,8 +1,15 @@
 import React from 'react'
+import {
+  ServiceContainer,
+} from './ServicesElements';
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <>
+      <ServiceContainer id='services'>
+        Services
+      </ServiceContainer>
+    </>
   )
 }
 

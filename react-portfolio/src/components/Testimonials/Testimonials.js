@@ -1,8 +1,14 @@
 import React from 'react'
-
+import{
+  TestContainer,
+} from './TestElements';
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <>
+      <TestContainer id='Testimonials'>
+        Testimonials
+      </TestContainer>
+    </>
   )
 }
 

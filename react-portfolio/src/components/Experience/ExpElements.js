@@ -1,9 +1,5 @@
-import React from 'react'
+import styled from 'styled-components';
 
-const ExpElements = () => {
-  return (
-    <div>ExpElements</div>
-  )
-}
-
-export default ExpElements
+export const ExpContainer = styled.section`
+    
+`

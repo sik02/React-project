@@ -1,8 +1,15 @@
 import React from 'react'
+import {
+  PortContainer,
+} from './PortElements';
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <>
+      <PortContainer id='portfolio'>
+        Portfolio
+      </PortContainer>
+    </>
   )
 }
 
