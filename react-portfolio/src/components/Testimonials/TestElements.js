@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
-export const TestContainer = styled.section`
-    
+export const TestSection = styled.section`
+
 `

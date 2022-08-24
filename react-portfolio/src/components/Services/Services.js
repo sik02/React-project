@@ -1,14 +1,14 @@
 import React from 'react'
 import {
-  ServiceContainer,
+  ServiceSection,
 } from './ServicesElements';
 
 const Services = () => {
   return (
     <>
-      <ServiceContainer id='services'>
+      <ServiceSection id='services'>
         Services
-      </ServiceContainer>
+      </ServiceSection>
     </>
   )
 }

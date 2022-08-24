@@ -1,14 +1,14 @@
 import React from 'react'
 import {
-  ContactCotainer,
+  ContactSection,
 } from './ContactElements';
 
 const Contact = () => {
   return (
     <>
-      <ContactCotainer id='contact'>
+      <ContactSection id='contact'>
         Contact
-      </ContactCotainer>
+      </ContactSection>
     </>
   )
 }

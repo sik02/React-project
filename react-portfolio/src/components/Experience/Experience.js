@@ -1,14 +1,14 @@
 import React from 'react'
 import {
-  ExpContainer,
+  ExpSection,
 } from './ExpElements';
 
 const Experience = () => {
   return (
     <>
-      <ExpContainer id='experience'>
+      <ExpSection id='experience'>
         Experience
-      </ExpContainer>
+      </ExpSection>
     </>
   )
 }

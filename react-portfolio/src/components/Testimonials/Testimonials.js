@@ -1,13 +1,13 @@
 import React from 'react'
 import{
-  TestContainer,
+  TestSection,
 } from './TestElements';
 const Testimonials = () => {
   return (
     <>
-      <TestContainer id='Testimonials'>
+      <TestSection id='Testimonials'>
         Testimonials
-      </TestContainer>
+      </TestSection>
     </>
   )
 }
