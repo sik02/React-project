@@ -26,14 +26,12 @@ const Experience = () => {
           <Container>
             <H3Text>Frontend Development</H3Text>
             <Content>
-
               <Article_Detail>
                 <IconBox><BsPatchCheckFill /></IconBox>
                 <Detail>
                   <H4Text>HTML</H4Text>
                   <SmallText>Experienced</SmallText>
                 </Detail>
-
               </Article_Detail>
               <Article_Detail>
                 <IconBox><BsPatchCheckFill /></IconBox>
@@ -41,7 +39,6 @@ const Experience = () => {
                   <H4Text>CSS</H4Text>
                   <SmallText>Intermediate</SmallText>
                 </Detail>
-
               </Article_Detail>
               <Article_Detail>
                 <IconBox><BsPatchCheckFill /></IconBox>
@@ -49,7 +46,6 @@ const Experience = () => {
                   <H4Text>JavaScript</H4Text>
                   <SmallText>Experienced</SmallText>
                 </Detail>
-
               </Article_Detail>
               <Article_Detail>
                 <IconBox><BsPatchCheckFill /></IconBox>
@@ -57,16 +53,13 @@ const Experience = () => {
                   <H4Text>Bootstrap</H4Text>
                   <SmallText>Experienced</SmallText>
                 </Detail>
-
               </Article_Detail>
-
               <Article_Detail>
                 <IconBox><BsPatchCheckFill /></IconBox>
                 <Detail>
                   <H4Text>Tailwind</H4Text>
                   <SmallText>Experienced</SmallText>
                 </Detail>
-
               </Article_Detail>
               <Article_Detail>
                 <IconBox><BsPatchCheckFill /></IconBox>
@@ -74,24 +67,18 @@ const Experience = () => {
                   <H4Text>React</H4Text>
                   <SmallText>Experienced</SmallText>
                 </Detail>
-
               </Article_Detail>
-
-
             </Content>
           </Container>
-
           <Container>
             <H3Text>Backend Development</H3Text>
             <Content>
-
               <Article_Detail>
                 <IconBox><BsPatchCheckFill /></IconBox>
                 <Detail>
                   <H4Text>Node JS</H4Text>
                   <SmallText>Experienced</SmallText>
                 </Detail>
-
               </Article_Detail>
               <Article_Detail>
                 <IconBox><BsPatchCheckFill /></IconBox>
@@ -99,7 +86,6 @@ const Experience = () => {
                   <H4Text>MongoDB</H4Text>
                   <SmallText>Intermediate</SmallText>
                 </Detail>
-
               </Article_Detail>
               <Article_Detail>
                 <IconBox><BsPatchCheckFill /></IconBox>
@@ -107,7 +93,6 @@ const Experience = () => {
                   <H4Text>PHP</H4Text>
                   <SmallText>Experienced</SmallText>
                 </Detail>
-
               </Article_Detail>
               <Article_Detail>
                 <IconBox><BsPatchCheckFill /></IconBox>
@@ -115,8 +100,6 @@ const Experience = () => {
                   <H4Text>MySQL</H4Text>
                   <SmallText>Experienced</SmallText>
                 </Detail>
-
-
               </Article_Detail>
               <Article_Detail>
                 <IconBox><BsPatchCheckFill /></IconBox>
@@ -124,10 +107,7 @@ const Experience = () => {
                   <H4Text>Python</H4Text>
                   <SmallText>Experienced</SmallText>
                 </Detail>
-
               </Article_Detail>
-
-
             </Content>
           </Container>
         </ExpContainer>

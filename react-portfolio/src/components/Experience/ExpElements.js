@@ -1,15 +1,20 @@
 import styled from 'styled-components';
 
 export const ExpSection = styled.section`
-
+    margin: 8rem 0 0 0;
 `
 
 export const H5Text = styled.h5`
-
+    font-weight: 500;
+    text-align: center;
+    color: rgba(255,255,255,0.6);
 `
 
 export const H2Text = styled.h2`
-
+    font-weight: 500;
+    text-align: center;
+    color: #4db5ff;
+    margin: 0 0 3rem 0;
 `
 
 export const H3Text = styled.h3`
@@ -19,7 +24,7 @@ export const H3Text = styled.h3`
 `
 
 export const H4Text = styled.h4`
-
+    font-weight: 500;
 `
 
 export const SmallText = styled.small`
