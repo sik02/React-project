@@ -13,6 +13,7 @@ const IndexPage = () => (
     <Hero />
     <Trips />
     {/* <SamplePage /> */}
+    <Trips heading="Our Favorite Destinations"/>
   </Layout>
 )
 

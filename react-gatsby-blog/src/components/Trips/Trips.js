@@ -14,7 +14,7 @@ import { Button } from "../Button";
 import { ImLocation } from "react-icons/im";
 
 
-const Trips = () => {
+const Trips = ({heading}) => {
     const data = useStaticQuery(graphql`
         query TripsQuery {
             allTripsJson {
@@ -39,7 +39,16 @@ const Trips = () => {
                             <ImLocation />
                             <ProductTitle>{item.node.name}</ProductTitle>
                         </TextWrap>
-                        <Button to="/trips">{item.node.button}</Button>
+                        <Button 
+                            to="/trips"
+                            primary="true"
+                            round="true"
+                            css={`
+                                position: absolute;
+                                top: 420px;
+                                font-size: 14px;
+                            `}
+                        >{item.node.button}</Button>
                     </ProductInfo>
                 </ProductCard>
             )
@@ -49,7 +58,7 @@ const Trips = () => {
 
     return (
         <ProductsContainer>
-            <ProductsHeading>Heading</ProductsHeading>
+            <ProductsHeading>{heading}</ProductsHeading>
             <ProductWrapper>{getTrips(data)}</ProductWrapper>
         </ProductsContainer>
     )
