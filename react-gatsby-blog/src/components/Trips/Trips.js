@@ -3,9 +3,15 @@ import {
     ProductsContainer,
     ProductsHeading,
     ProductWrapper,
+    ProductCard,
+    ProductInfo,
+    TextWrap,
+    ProductTitle,
 } from "./TripsElements";
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
+import { Button } from "../Button";
+import { ImLocation } from "react-icons/im";
 
 
 const Trips = () => {
@@ -17,19 +23,25 @@ const Trips = () => {
                     alt
                     button
                     name
-                    img
                   }
                 }
-              }
+            }
         }
     `)
-    function getTrips(data){
+    function getTrips(data) {
         const tripsArray = []
         data.allTripsJson.edges.forEach((item, index) => {
             tripsArray.push(
-                <div key={index}>
-                    <Img src={item.node.img} />
-                </div>
+                <ProductCard key={index}>
+                    <Img src={item.node.img} fluid={item.node.fluid}/>
+                    <ProductInfo>
+                        <TextWrap>
+                            <ImLocation />
+                            <ProductTitle>{item.node.name}</ProductTitle>
+                        </TextWrap>
+                        <Button to="/trips">{item.node.button}</Button>
+                    </ProductInfo>
+                </ProductCard>
             )
         })
         return tripsArray
