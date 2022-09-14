@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import { Button } from "../Button";
 import { ImLocation } from "react-icons/im";
+import Images from '../../assets/images/travel-1.jpg'
 
 
 const Trips = ({heading}) => {
@@ -33,7 +34,7 @@ const Trips = ({heading}) => {
         data.allTripsJson.edges.forEach((item, index) => {
             tripsArray.push(
                 <ProductCard key={index}>
-                    <Img src={item.node.img} fluid={item.node.fluid}/>
+                    <Img src={Images} />
                     <ProductInfo>
                         <TextWrap>
                             <ImLocation />
