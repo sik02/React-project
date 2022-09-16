@@ -37,7 +37,7 @@ export const ContentWrapper = styled.div`
 
 export const ColumnOne = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 `
 
 export const Testimonial = styled.div`
@@ -46,7 +46,7 @@ export const Testimonial = styled.div`
 
     h3{
         margin-bottom: 1rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-style: italic;
     }
 
