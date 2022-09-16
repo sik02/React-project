@@ -6,6 +6,7 @@ import Hero from "../components/HeroSection/Hero";
 import Trips from "../components/Trips/Trips";
 import SamplePage from "../components/SamplePage";
 import Testimonials from "../components/TestiSection/Testimonials";
+import Stats from "../components/Stats/Stats";
 
 
 const IndexPage = () => (
@@ -15,6 +16,7 @@ const IndexPage = () => (
     {/* <SamplePage /> */}
     <Trips heading="Our Favorite Destinations"/>
     <Testimonials />
+    <Stats />
   </Layout>
 )
 
