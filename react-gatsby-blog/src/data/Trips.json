@@ -3,24 +3,28 @@
         "img": "../assets/image/travel-1.jpg",
         "alt": "Tian Tan Buddha",
         "name": "Tian Tan Buddha",
-        "button": "View Destination"
+        "button": "View Destination",
+        "fluid": "../assets/image/travel-1.jpg"
     },
     {
         "img": "../assets/image/travel-2.jpg",
         "alt": "Ad Deir",
         "name": "Ad Deir",
-        "button": "View Destination"
+        "button": "View Destination",
+        "fluid": "../assets/image/travel-1.jpg"
     },
     {
         "img": "../assets/image/travel-3.jpg",
         "alt": "Humayun Tomb",
         "name": "Humayun Tomb",
-        "button": "View Destination"
+        "button": "View Destination",
+        "fluid": "../assets/image/travel-1.jpg"
     },
     {
         "img": "../assets/image/travel-4.jpg",
         "alt": "Dunhinda Falls",
         "name": "Dunhinda Falls",
-        "button": "View Destination"
+        "button": "View Destination",
+        "fluid": "../assets/image/travel-1.jpg"
     }
 ]

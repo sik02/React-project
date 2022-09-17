@@ -17,24 +17,33 @@ import Images from '../../assets/images/travel-1.jpg'
 
 const Trips = ({heading}) => {
     const data = useStaticQuery(graphql`
-        query TripsQuery {
-            allTripsJson {
-                edges {
-                  node {
-                    alt
-                    button
-                    name
-                  }
-                }
+    
+    query MyQuery {
+        allTripsJson {
+          edges {
+            node {
+              alt
+              button
+              name
+              img
+              fluid
             }
+          }
         }
+      }
+      
     `)
     function getTrips(data) {
         const tripsArray = []
+        const ImageArray = []
         data.allTripsJson.edges.forEach((item, index) => {
             tripsArray.push(
                 <ProductCard key={index}>
-                    <Img src={Images} />
+                    {/* {data.allFile.edges.map((image, key) => (
+                            <Img key={key} fluid={data.allFile.image.node.childImageSharp.fluid} />
+                    ))} */}
+                    
+                    {/* <Img key={index} fluid={data.allFile.image.node.childImageSharp.fluid} /> */}
                     <ProductInfo>
                         <TextWrap>
                             <ImLocation />
